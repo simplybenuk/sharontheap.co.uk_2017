@@ -1,0 +1,74 @@
+/*Navigation Bar styling*/
+
+.navbar-default {
+    background-color: white;
+    border-color: transparent;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+/*Home Page*/
+.page-header {
+    text-align: center;
+    border-bottom: none;
+}
+.page-header img {
+    max-height: 100px;
+    max-width: 100%
+}
+
+.portfolio-item h3 {
+    text-align: center;
+}
+
+.home-text {
+    padding: 50px 20px;
+}
+
+/*Collection Page*/
+
+.collection-row {
+    margin: 20px 0;
+}
+
+.collection-row img {
+    padding: 4px;
+}
+
+.collection-thumb {
+    padding: 0px;
+    overflow: hidden
+}
+@media screen and (max-width: 882px) {
+    .collection-lg-top {
+        margin-top: 20px;
+    }
+}
+/*
+*/
+.collection-lg-bottom {
+    margin-bottom: 20px;
+}
+
+
+/*Footer*/
+.btn-social {
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline {
+    color: black;
+    font-size: 20px;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 15px;
+}
+.footer-above {
+    background-color: #f5f5f5;
+}
